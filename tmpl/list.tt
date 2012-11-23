@@ -1,0 +1,23 @@
+[% WRAPPER 'include/layout.tt' %]
+
+<table class="table table-hover table-condensed sortable">
+    <thead>
+        <tr>
+            <th>key</th>
+            <th>value</th>
+            <th style="width: 15px;"></th>
+        </tr>
+    </thead>
+    <tbody>
+[% FOR value IN values -%]
+        <tr>
+            <td>[% value.key %]</td>
+            <td>[% value.value %]</td>
+            <td></td>
+        </tr>
+[% END -%]
+    </tbody>
+</table>
+
+
+[% END %]

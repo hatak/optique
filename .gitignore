@@ -1,0 +1,15 @@
+Makefile
+inc/
+extlib/
+MANIFEST
+*.bak
+*.old
+nytprof.out
+nytprof/
+*.db
+blib/
+pm_to_blib
+META.json
+META.yml
+MYMETA.json
+MYMETA.yml
